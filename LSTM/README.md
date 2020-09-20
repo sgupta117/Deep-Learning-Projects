@@ -1,5 +1,13 @@
 # Long Short Term Memory
- - Word Embedding
+ - Word Embedding : The main advantage of using word embedding is that it allows words of similar context to be grouped together and dissimilar words are positioned far away from each other. 
+This is done with the help of an Embedding Matrix.
+The similarity of 2 words can be found with the help of Cosine Similarity.
+Word embedding is a popular technique of converting sparse representation vectors into dense smaller vectors. This increases computation times by a significant factor and saves resources.
+It is an improvement over the traditional bag-of-word model encoding schemes where large sparse vectors were used to represent each word or to score each word within a vector to represent an entire vocabulary. These representations were sparse because the vocabularies were vast and a given word or document would be represented by a large vector composed mostly of zero values.
+
+Instead, in an embedding, words are represented by dense vectors where a vector represents the projection of the word into a continuous vector space.
+The position of a word within the vector space is learned from text and is based on the words that surround the word when it is used.
+
  - Fake News Classifier
  - Stock Price Prediction
 
