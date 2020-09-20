@@ -1,4 +1,4 @@
 # Long Short Term Memory
-# Word Embedding
-# Fake News Classifier
-# Stock Price Prediction
+ - Word Embedding
+ - Fake News Classifier
+ - Stock Price Prediction
